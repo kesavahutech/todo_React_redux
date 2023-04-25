@@ -1,0 +1,11 @@
+.formdiv {
+    width : 50%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid rgb(226, 222, 222);
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}

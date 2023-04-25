@@ -1,0 +1,25 @@
+.listdiv {
+    margin: 3rem auto;
+    padding: 2rem;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border : 2px solid rgb(226, 222, 222);
+}
+
+.itemdiv {
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  wheat;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.striked {
+    text-decoration: line-through;
+}
