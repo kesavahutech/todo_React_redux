@@ -11,12 +11,14 @@ export default function TodoForm() {
   const todoref = useRef();
   const submitHandler = (e) => {
     e.preventDefault();
-    const todo = {
-      text: todoref.current.value,
-      id: Math.random().toString(),
-      striked: false,
-    };
-    dispatch(todoActions.addtodo(todo));
+    if (todoref.current.value) {
+      const todo = {
+        text: todoref.current.value,
+        id: Math.random().toString(),
+        striked: false,
+      };
+      dispatch(todoActions.addtodo(todo));
+    }
     e.target.reset();
   };
   return (
